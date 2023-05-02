@@ -1,0 +1,40 @@
+p{
+    color: crimson
+}
+.heading{
+    color: steelblue
+}
+#main-heading{
+    color: rebeccapurple;
+}
+
+#main-heading, .reminder{
+    background-color: yellow;
+}
+
+.make-bigger {
+    font-size: 2em;
+}
+
+h1.make-bigger {
+    font-size: 4em
+}
+
+h1.heading {
+    color: indigo;
+}
+
+h2.heading{
+    color: sandybrown;
+}
+
+.reminder.make-bigger{
+    color: mediumturquoise;
+}
+
+footer p{
+    color: olivedrab;
+}
+footer>p{
+    color: orchid;
+}
