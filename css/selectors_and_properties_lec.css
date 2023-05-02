@@ -1,15 +1,28 @@
+html {
+    background-image: url("../img/backalley.jpg");
+    background-size: contain;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
 p{
-    color: crimson
+    color: crimson;
+    text-indent: 2em
 }
 .heading{
     color: steelblue
 }
 #main-heading{
-    color: rebeccapurple;
+    color: #de1468;
+    text-decoration:overline underline darkslategray;
+    text-align: center;
+    font-family: Helvetica;
 }
 
 #main-heading, .reminder{
-    background-color: yellow;
+    background-color: rgb(255, 239, 0);
+}
+img {
+    border-radius: 50%;
 }
 
 .make-bigger {
@@ -26,6 +39,7 @@ h1.heading {
 
 h2.heading{
     color: sandybrown;
+    text-align: right
 }
 
 .reminder.make-bigger{
@@ -37,4 +51,27 @@ footer p{
 }
 footer>p{
     color: orchid;
+}
+
+a:link{
+    color: green;
+}
+a:visited{
+    color: orange;
+}
+
+a:hover{
+    color:pink;
+}
+
+/*https://coolors.co/66101f-855a5c-8a8e91-b8d4e3-eeffdb*/
+
+ul{
+    list-style: disks;
+}
+ol{
+    list-style: lower-roman;
+}
+ol li{
+    color: inhert;
 }
