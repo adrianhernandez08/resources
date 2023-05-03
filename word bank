@@ -11,3 +11,9 @@ methods
 parseInt*
 immutable - will not change
 perplexed - no value assigned
+parseInt - whole numbers (eg. 123)
+    takes a string and turns it into a number
+parseFloat- numbers with a decimal (e.g. 123.234)
+
+indexOf - searches a letter
+
