@@ -1,0 +1,80 @@
+WORDS ARE GOOD....
+
+operators
+operands
+expressions
+typeof - produce string *
+% modulus - remainder of two numbers
+concatenation -
+variable
+methods
+parseInt*
+immutable - will not change
+perplexed - no value assigned
+parseInt - whole numbers (eg. 123)
+    takes a string and turns it into a number
+parseFloat- numbers with a decimal (e.g. 123.234)
+
+indexOf - searches a letter
+
+for loops: for (let i = 0; i <= 5; i++){
+    if (i === 3) {
+        continue;
+}
+if (i ===7){
+    break;
+}
+    console.log(i);
+}
+
+while loop
+let i = 0
+while(i < 10){
+    console.log(i);
+i++;
+}
+https://www.youtube.com/watch?v=LuAWFium1nk
+
+do while loop - guarante something will happen regardless of the condition
+let i = 15;
+do{
+console.log(i);
+
+i--;
+} while (i < 10) && (i < 0);
+
+for in loop - allows you to loop over an object only works for string based properties
+let person = {
+name: "dom"
+age: 29,
+occupation: "web developer"
+};
+for (let prop in person){
+ console.log(person[prop]);
+}
+
+for of loop - loop over iterable objects (when looping through arrays)
+let numbers = [5, 9, 13];
+for (let n of number) {
+console.log(n);
+}
+
+node list query selector.
+let listItems = document.querySelectorAll("li");
+for (let li of listItems) {
+console.log(li);
+}
+
+forEach - directly on arrays themselves
+let numbers = [5, 9, 13];
+numbers.forEach((n, i) => {
+console.log(n);
+console.log(i);
+)};
+https://www.youtube.com/watch?v=Cda9N6C7l6Y
+
+call on methods of numbers
+
+let x = 5;
+let y = "10";
+let yInt= Number.parseInt(y);

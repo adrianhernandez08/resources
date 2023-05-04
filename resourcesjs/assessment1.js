@@ -69,6 +69,16 @@ if(!isANumber(input1) || !isANumber(input2) || !isANumber(input3)){
     }
 }
 
+// let numbers = [4, 8, 10, 12]
+// let maximum = -Infinity
+// let minimum = Infinity
+// for (let number of numbers){
+//     if (number > maximum)
+//         maximum = number
+//
+//     if(number< minimum)
+//             minimum = number
+
 // Define a function named parseNumber that parses (converts) a numeric String and returns its value as a number, the function should be able to decide if it should be parsing an Integer or a Float value.
 
 function parseNumber(x){
