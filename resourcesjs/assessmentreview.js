@@ -124,3 +124,16 @@ console.log(stringsAreSameLength(81, 34)); // returns false
 console.log(stringsAreSameLength("ace", [1, 2, 3])); // returns false
 console.log(stringsAreSameLength("fisherman")); // returns false
 console.log(stringsAreSameLength()); // returns false
+
+
+function function1()
+{
+    let apple = green
+    var variable1=12;
+    function2(variable1);
+}
+
+function function2(val) {
+    var variableOfFunction1 = val;
+
+}
