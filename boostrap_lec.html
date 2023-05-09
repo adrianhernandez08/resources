@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Order Pizza</title>
+    <style>
+        #main-container {
+            background-image: url("img/pizza.png");
+            text-align: center;
+
+        }
+
+        h1 {
+            background-color: #ffffffab;
+
+        }
+
+    </style>
+
+</head>
+<body>
+<!--start of navbar-->
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Pizza World</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Order Online</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Menu</a>
+                </li>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Zip Code" aria-label="Search">
+                <button class="btn btn-outline-primary w-100" type="submit">Search stores near you</button>
+                </div>
+            </form>
+            <div>
+                <div>
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a class="nav-link text-dark" href="#"><i class="fas fa-user">Sign Up</i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+</nav>
+
+<!--nav bar ends here-->
+
+<!--    jumbotron starts here-->
+<div class="container">
+    <div class="jumbotron jumbotron-fluid" id="main-container">
+        <h1 class="display-4">Welcome to Pizza World!</h1>
+    </div>
+
+</div>
+<div class="container">
+    <h3>Build Your Own Pizza!</h3>
+
+    <!--tabs start here-->
+
+
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="size-and-crust-tab" data-toggle="tab" href="#size-and-crust" role="tab"
+               aria-controls="size-and-crust" aria-selected="true">Size And Crust</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="cheese-and-sauce-tab" data-toggle="tab" href="#cheese-and-sauce" role="tab"
+               aria-controls="cheese-and-sauce" aria-selected="false">Cheese And Sauce</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="toppings-tab" data-toggle="tab" href="#toppings" role="tab" aria-controls="toppings"
+               aria-selected="false">Toppings</a>
+        </li>
+    </ul>
+
+    <!--tab one -->
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="size-and-crust" role="tabpanel" aria-labelledby="size-and-crust-tab">
+
+
+            <div class="card">
+                <div class="card-header"><h5>
+                    Choose Size and Crust</h5>
+                </div>
+
+
+                <!--card one / tab one-->
+
+                <div class="tab-pane fade active show p-3" id="hand-tossed-size" role="tabpanel"
+                     aria-labelledby="nav-home-tab">
+
+                    <div class="card position-static input-group mb-3" style="width: 100%">
+                        <div class="card-header">
+                            Hand Tossed
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <!--                        <input type="checkbox">-->
+                            <li class="list-group-item">Garlic seasoned crust, with a rich buttery taste!</li>
+                            <li class="list-group-item"><input type="radio"> Small (10")</li>
+                            <li class="list-group-item"><input type="radio"> Medium(12")</li>
+                        </ul>
+                    </div>
+
+
+                </div>
+
+                <!--       card two/tab one     -->
+
+
+                <div class="tab-pane fade active show p-3" id="crispy-thin-size" role="tabpanel"
+                     aria-labelledby="nav-home-tab">
+                    <div class=" card position-static" style="width: 100%">
+                        <div class="card-header">
+                            Crispy Thin
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Thin enough for optimum crispy to crunch ratio.</li>
+                            <li class="list-group-item"> Medium (12")</li>
+                            <li class="list-group-item">Large (14")</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-primary">Previous</a>
+
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary">Next</a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header"><h5>
+                    Choose Cheese and Sauce</h5>
+                </div>
+
+
+                <!--card one / tab two-->
+
+                <div class="tab-pane fade active show p-3" id="cheese" role="tabpanel"
+                     aria-labelledby="nav-home-tab">
+
+                    <div class="card position-static input-group mb-3" style="width: 100%">
+                        <div class="card-header">
+                            Cheese
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <!--                        <input type="checkbox">-->
+                            <li class="list-group-item">How Much?</li>
+                            <li class="list-group-item"><input type="radio"> Normal</li>
+                        </ul>
+                    </div>
+
+
+                </div>
+
+                <!--       card two/tab two     -->
+
+
+                <div class="tab-pane fade active show p-3" id="sauce" role="tabpanel"
+                     aria-labelledby="nav-home-tab">
+                    <div class=" card position-static" style="width: 100%">
+                        <div class="card-header">
+                            Sauce
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">What Type?</li>
+                            <li class="list-group-item"> Tomato</li>
+                            <li class="list-group-item">How Much?</li>
+                            <li class="list-group-item"> Normal</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-primary">Previous</a>
+
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary">Next</a>
+
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header"><h5>
+                            Choose Toppings</h5>
+                        </div>
+
+
+                        <!--card one / tab three-->
+
+                        <div class="tab-pane fade active show p-3" id="meats" role="tabpanel"
+                             aria-labelledby="nav-home-tab">
+
+                            <div class="card position-static input-group mb-3" style="width: 100%">
+                                <div class="card-header">
+                                    Choose Meats
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <!--                        <input type="checkbox">-->
+                                    <li class="list-group-item"><input type="radio"> Beef</li>
+                                    <li class="list-group-item"><input type="radio"> Ham</li>
+                                    <li class="list-group-item"><input type="radio"> Philly Steak</li>
+                                    <li class="list-group-item"><input type="radio"> Bacon</li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+
+                        <!--       card two/tab three     -->
+
+
+                        <div class="tab-pane fade active show p-3" id="non-meats" role="tabpanel"
+                             aria-labelledby="nav-home-tab">
+                            <div class=" card position-static" style="width: 100%">
+                                <div class="card-header">
+                                    Choose Non-meats
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item"><input type="radio"> Green Peppers</li>
+                                    <li class="list-group-item"><input type="radio"> Mushrooms</li>
+                                    <li class="list-group-item"><input type="radio"> Onions</li>
+                                    <li class="list-group-item"><input type="radio"> Jalapeno Peppers</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-primary">Previous</a>
+
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary">Next</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    </style>
+
+</body>
+</html>
