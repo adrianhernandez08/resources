@@ -1,3 +1,5 @@
+
+
 * {
     box-sizing: border-box;
 }
@@ -9,11 +11,17 @@ body, html {
 
 .bgimg {
     background-position: center;
-    background-size: cover;
-    background-image: url("/img/background.jpeg");
+    background-size: contain;
+    background-image: url("/img/background.png");
     min-height: 50%;
 }
 
 .menu {
     display: none;
 }
+
+.w3-row {
+    padding: 8px 8px 16px 16px;
+    text-decoration-color: black;
+}
+
