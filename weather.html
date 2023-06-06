@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast: Reboot13</title>
+    <link rel="shortcut icon" href="https://cdn2.iconfinder.com/data/icons/weather-flat-14/64/weather03-512.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/weather.css">
+    <script src="resourcesjs/weathermap.js" defer></script>
+</head>
+<body>
+<div class="container">
+
+    <div class="city" id="city"></div>
+    <div class="date" id="date"></div>
+    <div class="temp"><span id="temp"></span><sup>°C</sup></div>
+
+    <div class="weather">
+        <div><img id="icon" class="icon">
+            <div class="status" id="status"></div>
+        </div>
+        <div class="inputs">
+            <input type="text" id="location" placeholder="Type City Name..">
+            <input type="submit" value="Check Weather" onclick="locate()">
+        </div>
+    </div>
+
+    <div class="secondary">
+        <div class="feelsLike">
+            Feels Like<br>
+            <span id="feelsLike"></span>
+        </div>
+        <div class="windSpeed">
+            Wind Speed<br>
+            <span id="windSpeed"></span>
+        </div>
+    </div>
+
+</div>
+</body>
+
+
+</body>
+</html>
